@@ -36,9 +36,7 @@ projects[emfield][subdir] = contrib
 projects[fasttoggle][subdir] = contrib
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta3
-; http://drupal.org/node/846826
-projects[flag][patch][] = "http://drupal.org/files/issues/flag_features_export.patch"
+projects[flag][version] = 2.0-beta5
 
 ; git checkout of Features 6.x-1.x
 projects[features][subdir] = contrib
