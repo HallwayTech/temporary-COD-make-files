@@ -102,8 +102,6 @@ projects[fusion][type] = theme
 projects[fusion][download][type] = git
 projects[fusion][download][url] = "http://git.drupal.org/project/fusion.git"
 projects[fusion][download][revision] = "6.x-1.x"
-; http://drupal.org/node/1012882
-projects[fusion][patch][] = "http://drupal.org/files/issues/fusion-preprocess-node-content.patch"
 
 ; COD feature modules.
 projects[cod_support][subdir] = contrib 
