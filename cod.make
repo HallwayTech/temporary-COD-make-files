@@ -19,7 +19,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.8
 
 projects[strongarm][subdir] = contrib
 
@@ -66,6 +66,8 @@ projects[markdown][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
 
+projects[panels][subdir] = contrib
+
 projects[path_redirect][subdir] = contrib
 
 projects[skinr][subdir] = contrib
@@ -78,6 +80,8 @@ projects[token][subdir] = contrib
 
 projects[uc_signup][subdir] = contrib
 
+projects[uc_node_checkout][subdir] = contrib
+
 projects[uuid][subdir] = contrib
 projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
@@ -89,11 +93,17 @@ projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_fea
 projects[uuid_features][download][revision] = "6.x-1.x"
 ; http://drupal.org/node/1008496#comment-3995594
 projects[uuid_features][patch][] = "http://drupal.org/files/issues/node-values_0.diff"
+
 projects[ubercart][subdir] = contrib
+projects[ubercart][download][type] = "git"
+projects[ubercart][download][branch] = "6.x-2.x"
+projects[features][download][url] = "http://git.drupal.org/project/ubercart.git"
 
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][subdir] = contrib
+
+projects[views_send][subdir] = contrib
 
 projects[acquia_prosper][type] = theme
 projects[acquia_prosper][subdir] = themes
