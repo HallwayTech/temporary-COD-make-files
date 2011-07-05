@@ -91,8 +91,7 @@ projects[uuid_features][subdir] = contrib
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
 projects[uuid_features][download][revision] = "6.x-1.x"
-; http://drupal.org/node/1008496#comment-3995594
-projects[uuid_features][patch][] = "http://drupal.org/files/issues/node-values_0.diff"
+
 
 projects[ubercart][subdir] = contrib
 projects[ubercart][download][type] = "git"
