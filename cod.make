@@ -22,6 +22,8 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.8
 
 projects[strongarm][subdir] = contrib
+; http://drupal.org/node/792472#comment-3538100
+projects[strongarm][patch][] = "http://drupal.org/files/issues/792472_15_node_pipe.patch"
 
 projects[link][subdir] = contrib
 
