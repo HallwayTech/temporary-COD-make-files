@@ -66,6 +66,8 @@ projects[jquery_ui][subdir] = contrib
 
 projects[markdown][subdir] = contrib
 
+projects[nodeaccess_userreference][subdir] = contrib
+
 projects[pathauto][subdir] = contrib
 
 projects[panels][subdir] = contrib

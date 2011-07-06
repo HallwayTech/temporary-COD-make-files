@@ -42,6 +42,7 @@ function cod_profile_modules() {
     'imagefield',
     'nodereference',
     'userreference',
+    'nodeaccess_userreference',
     'link',
     'auto_nodetitle',
     'imageapi',
