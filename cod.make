@@ -78,6 +78,8 @@ projects[skinr][subdir] = contrib
 
 projects[signup][subdir] = contrib
 
+projects[signup_profile][subdir] = contrib
+
 projects[skinr][subdir = contrib
 
 projects[token][subdir] = contrib

@@ -58,6 +58,7 @@ function cod_profile_modules() {
     'views',
     'views_ui',
     'signup',
+    'signup_profile',
     'uc_cart',
     'ca',
     'uc_order',
