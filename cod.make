@@ -113,6 +113,7 @@ projects[views_send][subdir] = contrib
 
 projects[fusion_swimmingly][type] = theme
 projects[fusion_swimmingly][subdir] = themes
+projects[fusion_swimmingly][version] = "beta0"
 
 projects[fusion][type] = theme
 projects[fusion][download][type] = git
