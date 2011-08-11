@@ -194,8 +194,8 @@ function cod_profile_tasks(&$task, $url) {
     drupal_flush_all_caches();
     // Set acquia_prosper as the default theme.
     db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name ='%s'", 'fusion_core');
-    db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name ='%s'", 'acquia_prosper');
-    variable_set('theme_default', 'acquia_prosper');
+    db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name ='%s'", 'fusion_swimmingly');
+    variable_set('theme_default', 'fusion_swimmingly');
     // Set the default admin theme to bluemarine b/c it is good.
     variable_set('admin_theme', 'bluemarine');
     // Revert features to be sure everything is setup correctly.

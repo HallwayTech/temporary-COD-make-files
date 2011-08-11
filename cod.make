@@ -52,6 +52,7 @@ projects[features][patch][] ="http://drupal.org/files/issues/features-profile-fi
 ; http://drupal.org/node/860974#comment-3505484
 projects[features][patch][] = "http://drupal.org/files/issues/features.860974.patch"
 
+
 projects[filefield][subdir] = contrib
 
 projects[globalredirect][subdir] = contrib
@@ -110,8 +111,8 @@ projects[views_bulk_operations][subdir] = contrib
 
 projects[views_send][subdir] = contrib
 
-projects[acquia_prosper][type] = theme
-projects[acquia_prosper][subdir] = themes
+projects[fusion_swimmingly][type] = theme
+projects[fusion_swimmingly][subdir] = themes
 
 projects[fusion][type] = theme
 projects[fusion][download][type] = git
