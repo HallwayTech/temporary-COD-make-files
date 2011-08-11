@@ -196,6 +196,8 @@ function cod_profile_tasks(&$task, $url) {
     db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name ='%s'", 'fusion_core');
     db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name ='%s'", 'acquia_prosper');
     variable_set('theme_default', 'acquia_prosper');
+    // Set the default admin theme to bluemarine b/c it is good.
+    variable_set('admin_theme', 'bluemarine');
     // Revert features to be sure everything is setup correctly.
     // We revert cod_base last because it assigns permissions to roles defined
     // in the other COD Feature modules. See http://drupal.org/node/1210246
