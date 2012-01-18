@@ -22,8 +22,6 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.8
 
 projects[strongarm][subdir] = contrib
-; http://drupal.org/node/792472#comment-3538100
-projects[strongarm][patch][] = "http://drupal.org/files/issues/792472_15_node_pipe.patch"
 
 projects[link][subdir] = contrib
 
@@ -43,14 +41,14 @@ projects[flag][version] = 2.0-beta5
 ; git checkout of Features 6.x-1.x
 projects[features][subdir] = contrib
 projects[features][download][type] = "git"
-projects[features][download][branch] = "6.x-1.x"
+projects[features][download][tag] = "6.x-1.2"
 projects[features][download][url] = "http://git.drupal.org/project/features.git"
 ; http://drupal.org/node/968826#comment-3863422
-projects[features][patch][] = "http://drupal.org/files/issues/968826-features-menu-uuid.patch"
+;projects[features][patch][] = "http://drupal.org/files/issues/968826-features-menu-uuid.patch"
 ; http://drupal.org/node/912716#comment-3899924
-projects[features][patch][] ="http://drupal.org/files/issues/features-profile-fields-912716-11.patch"
+;projects[features][patch][] ="http://drupal.org/files/issues/features-profile-fields-912716-11.patch"
 ; http://drupal.org/node/860974#comment-3505484
-projects[features][patch][] = "http://drupal.org/files/issues/features.860974.patch"
+;projects[features][patch][] = "http://drupal.org/files/issues/features.860974.patch"
 
 
 projects[filefield][subdir] = contrib
@@ -92,7 +90,8 @@ projects[uc_node_checkout][subdir] = contrib
 projects[uuid][subdir] = contrib
 projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
-projects[uuid][download][revision] = "6.x-1.x"
+;projects[uuid][download][revision] = "6.x-1.x"
+projects[uuid][download][tag] = "6.x-1.0-beta2"
 
 projects[uuid_features][subdir] = contrib
 projects[uuid_features][download][type] = "git"
